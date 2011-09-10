@@ -1,6 +1,8 @@
 = Addressable::Rest
 
-A really simple HTTP client on top of Addressable::URI (it's in alpha and for now, only get requests are supported)
+A really simple HTTP client on top of Addressable::URI.
+
+It's in alpha and for now, only get requests are supported, also, all responses are considered JSON strings.
 
 == Installation
 
