@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["me@rafaelss.com"]
   gem.description   = %q{A really simple HTTP client on top of Addressable::URI}
   gem.summary       = %q{A really simple HTTP client on top of Addressable::URI}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/rafaelss/addressable-rest"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
